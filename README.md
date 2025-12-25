@@ -300,9 +300,11 @@ ORDER BY icn.year DESC, calculate_period_cases(icn.number_rabies, 12) DESC
 LIMIT 10;
 ```
 
+![5_2_function_usage.png](screenshots/5_2_function_usage.png)
+
 ---
 
-## Рішення: Покроковий гайд імпорту через MySQL Workbench
+## Покроковий гайд імпорту через MySQL Workbench
 
 > ⚠️ **Важливо:** Стандартний Table Data Import Wizard може імпортувати не всі
 > рядки. Слідуй цьому гайду для гарантованого повного імпорту!
